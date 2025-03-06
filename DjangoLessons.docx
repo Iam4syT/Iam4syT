@@ -1,0 +1,42 @@
+# A virtual environment is an isolated environment having its copy of the interpreter and libraries 
+# so that there’s no clash with the global installation of Python.
+python -m venv c:\Django 
+cd C:\django
+python -m venv venv
+.\venv\Scripts\activate
+py -m venv venv 
+>> venv\scripts\activate 
+C:\django>scripts\activate 
+(django) c:\django> pip3 install django
+cd '.\Family Tree\'
+(django) C:\django>code . 
+py -m pip install --upgrade pip
+py -m pip install --user virtualenv
+py -m venv env
+.\env\Scripts\activate
+deactivate 
+
+django-admin startproject demoproject 
+python manage.py <command>
+python manage.py startapp <name of app>
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+python manage.py shell
+directory
+virtual environment
+django development server
+pip install -r requirements.txt
+(venv) python -m pip install Pillow
+python manage.py createsuperuser
+
+
+
+python3 manage.py runserver # To run the server
+python3 manage.py makemigrations # To compile the migrations
+python3 manage.py migrate  # To migrate the changes in Database
+
+No need for repetitve coding tasks. code new and creative solutions.
+
+https://learn.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=fastapi%2Cwindows%2Cazure-cli%2Cazure-cli-deploy%2Cdeploy-instructions-azportal%2Cterminal-bash%2Cdeploy-instructions-zip-azcli
+
